@@ -15,3 +15,133 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* Shared Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: #070211;
+}
+
+.text-red{
+    color:#FF0000;
+}
+
+.text-gray{
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.text-size-small{
+    font-size: 18px;
+ 
+}
+
+.paragraph{
+    font-size: 20px;
+       color: rgba(7, 2, 17, 0.60);
+}
+
+.text-size-medium{
+    font-size: 24px;
+}
+
+.text-size-large{
+    font: 32px;
+}
+
+.section-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+.text-weight-400{
+    font-weight: 400;
+}
+
+.text-weight-500{
+    font-weight: 500;
+}
+
+.text-weight-600{
+    font-weight: 600;
+}
+
+.text-weight-700{
+    font-weight: 700;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.bg-primary{
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.section{
+    padding: 60px 140px;
+}
+
+.flex-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.margin-bottom-48{
+    margin-bottom: 48px;
+}
+
+.margin-bottom-16{
+    margin-bottom: 16px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Banner Styles */
+.banner{
+    padding: 144px;
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+                url(images/Banner\ Image.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-sub{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 16px;
+
+}
+
+.hero-title{
+    font-size: 72px;
+    color: white;
+    font-weight: 900;
+}
+
+/* Off Section Styles */
+.off-text{
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
